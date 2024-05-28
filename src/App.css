@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.container{
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+.blue{
+  background-color: blue;
+}
+
+button{
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  background-color: coral;
+  color: whitesmoke;
+}
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
