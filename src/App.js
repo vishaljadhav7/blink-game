@@ -19,7 +19,7 @@ function App() {
       return
     }
     setStart(true)
-    console.log("started game with ", intervalId.current)
+   // console.log("started game with ", intervalId.current)
     intervalId.current = setInterval(() => {
       setCurrId(
         Math.floor(Math.random() * boxes.length) // to get the random indexes 
